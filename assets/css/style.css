@@ -21,9 +21,13 @@ header{
 }
 
 header img{
-  padding: 20px 10px;
+  vertical-align: middle;
+  padding-left: 20px;
 }
 
+header strong{
+  vertical-align: middle;
+}
 
 
 /* MAIN */
@@ -118,6 +122,10 @@ main .blocco .website{
 main .blocco .sales{
   background-color: rgb(176, 199, 56);
 }
+main .blocco .mobile{
+  background-color: rgb(240, 157, 64);
+}
+
 
 main .blocco .croce{
   color: rgb(235, 108, 104);
