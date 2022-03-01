@@ -5,11 +5,122 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background-color: rgb(246, 248, 249)
+
 }
 
 /* HEADER */
 
+header{
+  background-color: white;
+  font-size: 50px;
+}
+
+header img{
+  padding: 20px 10px;
+}
 
 
 
 /* MAIN */
+
+
+/* BUTTON */
+
+.container{
+  background-color: white;
+  width: 60%;
+  margin: 50px auto;
+  border-radius: 5px;
+}
+
+.botton{
+  width: auto;
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.first{
+  color: white;
+  background-color: rgb(77, 174, 238);
+}
+
+.second{
+  color: rgb(214, 218, 222);
+border: 1px solid rgb(214, 218, 222) ;
+}
+
+.top{
+  padding: 20px 0px 10px 50px ;
+}
+.main{
+  border-top: 2px solid rgb(246, 248, 249);
+  padding: 30px 0 30px 30px;
+}
+
+/* CONTENT */
+
+.title::before{
+  content: " \25BC  ";
+  font-size: 0.6em;
+}
+
+main .title{
+  padding-bottom: 10px;
+
+}
+
+main .blocco{
+padding-bottom: 25px;
+}
+
+.carattere-speciale{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid rgb(117, 197, 178);
+  border-radius: 50%;
+  text-align: center;
+  color: rgb(117, 197, 178);
+
+}
+
+main .info-box{
+  display: inline-block;
+  font-size: .8rem;
+  color: white;
+  background-color: blue;
+  padding: 6px 8px;
+  border-radius: 10px;
+}
+
+main .blocco .riga{
+  padding-bottom: 10px;
+}
+
+main .blocco .editorial{
+  background-color: rgb(75, 172, 231);
+}
+main .blocco .q1goals{
+  background-color: rgb(156, 117, 225);
+}
+main .blocco .recruiting{
+  background-color: rgb(104, 191, 169);
+}
+main .blocco .website{
+  background-color: rgb(214, 101, 160);
+}
+main .blocco .sales{
+  background-color: rgb(176, 199, 56);
+}
+
+main .blocco .croce{
+  color: rgb(235, 108, 104);
+  border: 1px solid rgb(235, 108, 104);
+
+}
